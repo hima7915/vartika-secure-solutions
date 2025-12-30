@@ -1,21 +1,19 @@
 import { useState } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
-import heroImage from '@/assets/hero-security.jpg';
-import guard1 from '@/assets/guard-1.jpg';
-import controlRoom from '@/assets/control-room.jpg';
-import facilityManagement from '@/assets/facility-management.jpg';
-import vipSecurity from '@/assets/vip-security.jpg';
-import manpowerTeam from '@/assets/manpower-team.jpg';
-import training from '@/assets/training.jpg';
+import gallery1 from '@/assets/gallery-1.jpeg';
+import gallery2 from '@/assets/gallery-2.jpeg';
+import gallery3 from '@/assets/gallery-3.jpeg';
+import gallery4 from '@/assets/gallery-4.jpeg';
+import gallery5 from '@/assets/gallery-5.jpeg';
+import gallery6 from '@/assets/gallery-6.jpeg';
 
 const galleryImages = [
-  { src: heroImage, alt: 'Professional security team', title: 'Security Team' },
-  { src: guard1, alt: 'Security guard on duty', title: 'Guard Services' },
-  { src: controlRoom, alt: '24/7 Control room', title: 'Control Room' },
-  { src: facilityManagement, alt: 'Facility management team', title: 'Facility Management' },
-  { src: vipSecurity, alt: 'VIP protection services', title: 'VIP Security' },
-  { src: manpowerTeam, alt: 'Manpower workforce', title: 'Manpower Solutions' },
-  { src: training, alt: 'Security training session', title: 'Training Programs' },
+  { src: gallery1, alt: 'Security guards at construction site', title: 'Site Security' },
+  { src: gallery2, alt: 'Security team at Jalpak Foods', title: 'Corporate Security' },
+  { src: gallery3, alt: 'Security guards saluting at dawn', title: 'Disciplined Team' },
+  { src: gallery4, alt: 'Fire safety training session', title: 'Safety Training' },
+  { src: gallery5, alt: 'Manpower team briefing in warehouse', title: 'Manpower Solutions' },
+  { src: gallery6, alt: 'Physical training session', title: 'Fitness Training' },
 ];
 
 const Gallery = () => {
@@ -53,7 +51,7 @@ const Gallery = () => {
         </div>
 
         {/* Gallery Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {galleryImages.map((image, index) => (
             <div
               key={index}
