@@ -1,6 +1,6 @@
 import { Shield, Award, CheckCircle, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import heroImage from '@/assets/hero-security.jpg';
+import vslogo from '@/assets/vslogo.jpeg';
 
 const certifications = [
   { name: 'ISO 9001:2015', label: 'Quality Certified' },
@@ -23,15 +23,8 @@ const Hero = () => {
       id="home"
       className="relative min-h-screen flex items-center justify-center overflow-hidden hero-pattern"
     >
-      {/* Background Image with Overlay */}
-      <div className="absolute inset-0">
-        <img
-          src={heroImage}
-          alt="Professional security team"
-          className="w-full h-full object-cover opacity-20"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/90 to-background" />
-      </div>
+      {/* Background with Overlay */}
+      <div className="absolute inset-0 bg-gradient-hero" />
 
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -41,6 +34,15 @@ const Hero = () => {
 
       <div className="relative z-10 container-custom px-4 py-32">
         <div className="max-w-4xl mx-auto text-center">
+          {/* Logo Banner */}
+          <div className="mb-8 animate-fade-up">
+            <img 
+              src={vslogo} 
+              alt="Vartika Security Services Logo" 
+              className="w-48 h-48 md:w-64 md:h-64 mx-auto object-contain drop-shadow-2xl"
+            />
+          </div>
+
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent/10 border border-accent/30 rounded-full mb-8 animate-fade-up">
             <Shield className="w-4 h-4 text-accent" />
