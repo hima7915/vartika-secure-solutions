@@ -16,8 +16,8 @@ const Index = () => {
     "@context": "https://schema.org",
     "@type": "SecurityService",
     "name": "Vartika Security Services",
-    "description": "ISO 9001:2015 certified security and manpower company led by Ex-Serviceman, providing trusted security solutions across Madhya Pradesh.",
-    "url": "https://www.vartikasecurity.com",
+    "description": "ISO 9001:2015 certified security and manpower company led by Ex-Serviceman, providing trusted security solutions across India.",
+    "url": "https://www.vartikasecurity.in",
     "telephone": ["+91-9713600864", "+91-9522334488"],
     "email": "vartikaservices1989@gmail.com",
     "address": {
@@ -64,19 +64,19 @@ const Index = () => {
         <meta name="keywords" content="security services dewas, manpower supply madhya pradesh, security guard services MP, facility management, VIP security, payroll services, ex-serviceman security company" />
         <meta name="author" content="Vartika Security Services" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.vartikasecurity.com" />
+        <link rel="canonical" href="https://www.vartikasecurity.in" />
         
         {/* Open Graph */}
         <meta property="og:title" content="Vartika Security Services | Trusted Security & Manpower Solutions" />
         <meta property="og:description" content="ISO 9001:2015 certified security company led by Ex-Serviceman. Professional security guarding, manpower supply & facility management across Madhya Pradesh." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.vartikasecurity.com" />
+        <meta property="og:url" content="https://www.vartikasecurity.in" />
         <meta property="og:locale" content="en_IN" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Vartika Security Services | Security & Manpower Solutions" />
-        <meta name="twitter:description" content="ISO certified security company in MP. Ex-Serviceman led, 24/7 support, full compliance." />
+        <meta name="twitter:description" content="ISO certified security company in India. Ex-Serviceman led, 24/7 support, full compliance." />
         
         {/* Structured Data */}
         <script type="application/ld+json">

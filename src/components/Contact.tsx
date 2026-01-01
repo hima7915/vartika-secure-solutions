@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import { MapPin, Phone, Mail, Globe, Send, Briefcase, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
 
 const Contact = () => {
@@ -15,20 +13,6 @@ const Contact = () => {
     service: '',
     message: '',
   });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // In production, this would send to a backend
-    toast({
-      title: "Message Sent!",
-      description: "We'll get back to you within 24 hours.",
-    });
-    setFormData({ name: '', email: '', phone: '', company: '', service: '', message: '' });
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
 
   return (
     <section id="contact" className="section-padding bg-card/30">
@@ -47,90 +31,20 @@ const Contact = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
+          {/* Google Form Embed */}
           <div className="bg-card border border-border rounded-2xl p-8">
             <h3 className="text-xl font-bold text-foreground mb-6">Send Us a Message</h3>
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-sm font-medium text-foreground mb-2">Name *</label>
-                  <Input
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    placeholder="Your name"
-                    required
-                    className="bg-background border-border"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-foreground mb-2">Phone *</label>
-                  <Input
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    placeholder="Your phone number"
-                    required
-                    className="bg-background border-border"
-                  />
-                </div>
-              </div>
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-sm font-medium text-foreground mb-2">Email</label>
-                  <Input
-                    name="email"
-                    type="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    placeholder="Your email"
-                    className="bg-background border-border"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-foreground mb-2">Company</label>
-                  <Input
-                    name="company"
-                    value={formData.company}
-                    onChange={handleChange}
-                    placeholder="Company name"
-                    className="bg-background border-border"
-                  />
-                </div>
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-2">Service Required</label>
-                <select
-                  name="service"
-                  value={formData.service}
-                  onChange={handleChange}
-                  className="w-full h-10 px-3 py-2 bg-background border border-border rounded-md text-foreground"
-                >
-                  <option value="">Select a service</option>
-                  <option value="security">Security Guarding</option>
-                  <option value="facility">Facility Management</option>
-                  <option value="manpower">Manpower Supply</option>
-                  <option value="payroll">Payroll Services</option>
-                  <option value="vip">VIP Security</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-2">Message</label>
-                <Textarea
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  placeholder="Tell us about your requirements..."
-                  rows={4}
-                  className="bg-background border-border"
-                />
-              </div>
-              <Button type="submit" size="lg" className="w-full bg-accent hover:bg-gold-light text-accent-foreground font-bold">
-                <Send className="w-4 h-4 mr-2" />
-                Send Message
-              </Button>
-            </form>
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSdb8s_25aZDLX4mV2uptmPH85sKjpQtLysuAComqtzMqU1yLw/viewform?embedded=true"
+              style={{
+                border: "none",
+                width: "100%",
+                height: "800px",
+              }}
+              loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </div>
 
           {/* Contact Info & Careers */}
@@ -139,7 +53,7 @@ const Contact = () => {
             <div className="bg-card border border-border rounded-2xl p-8">
               <h3 className="text-xl font-bold text-foreground mb-6">Contact Details</h3>
               <div className="space-y-6">
-                <div className="flex items-start gap-4">
+                <div className="flex gap-4">
                   <div className="p-3 bg-accent/10 rounded-lg">
                     <MapPin className="w-5 h-5 text-accent" />
                   </div>
@@ -156,8 +70,6 @@ const Contact = () => {
                     <p className="font-semibold text-foreground">Phone</p>
                     <p className="text-muted-foreground">
                       <a href="tel:9713600864" className="hover:text-accent transition-colors">9713600864</a>
-                      {' | '}
-                      <a href="tel:9522334488" className="hover:text-accent transition-colors">9522334488</a>
                     </p>
                   </div>
                 </div>
@@ -178,8 +90,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">Website</p>
-                    <a href="https://www.vartikasecurity.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
-                      www.vartikasecurity.com
+                    <a href="https://www.vartikasecurity.in" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
+                      www.vartikasecurity.in
                     </a>
                   </div>
                 </div>
@@ -214,7 +126,13 @@ const Contact = () => {
                 className="w-full border-accent text-foreground hover:bg-accent hover:text-accent-foreground"
                 onClick={() => window.open('mailto:vartikaservices1989@gmail.com?subject=Career Inquiry', '_blank')}
               >
-                Apply Now
+                Send an Email
+              </Button>
+              <Button
+                variant="outline"
+                className="w-full border-accent text-foreground hover:bg-accent hover:text-accent-foreground"
+              >
+                +91 9522334488
               </Button>
             </div>
           </div>

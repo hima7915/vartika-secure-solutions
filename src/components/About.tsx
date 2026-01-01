@@ -1,5 +1,5 @@
 import { Shield, Target, Eye, Users, MapPin, Award } from 'lucide-react';
-import founderImage from '@/assets/founder.jpg';
+import founderImage from '@/assets/founder.jpeg';
 import coverageMap from '@/assets/coverage-map.jpg';
 
 const values = [
@@ -34,7 +34,7 @@ const About = () => {
               <img
                 src={founderImage}
                 alt="Bhim Singh Dayma - Founder"
-                className="relative rounded-2xl w-full h-full object-cover shadow-card"
+                className="relative rounded-2xl w-full object-cover shadow-card"
               />
               <div className="absolute -bottom-4 -right-4 bg-accent text-accent-foreground px-6 py-3 rounded-lg shadow-lg">
                 <p className="font-bold">Bhim Singh Dayma</p>
@@ -98,14 +98,14 @@ const About = () => {
                 State-Wide Rapid Deployment
               </h3>
               <p className="text-muted-foreground mb-6">
-                We provide comprehensive service coverage across the entire state of Madhya Pradesh, 
+                We provide comprehensive service coverage across the entire India, 
                 backed by rapid deployment teams that are trained to mobilize at short notice 
                 for any location or emergency need.
               </p>
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-accent rounded-full" />
-                  <span className="text-foreground">Quick mobilization across MP</span>
+                  <span className="text-foreground">Quick mobilization across nation</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-accent rounded-full" />
@@ -120,7 +120,7 @@ const About = () => {
             <div className="h-64 lg:h-full min-h-[300px]">
               <img
                 src={coverageMap}
-                alt="Madhya Pradesh coverage map"
+                alt="Nationwide coverage map"
                 className="w-full h-full object-cover"
               />
             </div>

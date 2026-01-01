@@ -107,7 +107,7 @@ const Footer = () => {
             © {new Date().getFullYear()} Vartika Security Services. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground">
-            Ex-Serviceman Led | Trusted Since 1989
+            Ex-Serviceman Led | Trusted Since 2011
           </p>
         </div>
       </div>
