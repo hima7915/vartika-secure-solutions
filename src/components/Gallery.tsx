@@ -14,14 +14,14 @@ import gallery10 from '@/assets/gallery-10.jpeg';
 
 const galleryImages = [
   { src: gallery1, alt: 'Security guards at construction site', title: 'Site Security' },
-  { src: gallery2, alt: 'Security team at Jalpak Foods', title: 'Corporate Security' },
+  { src: gallery2, alt: 'Security team at Jalpak Foods', title: 'Plant Security' },
   { src: gallery3, alt: 'Security guards saluting at dawn', title: 'Disciplined Team' },
   { src: gallery4, alt: 'Fire safety training session', title: 'Safety Training' },
   { src: gallery5, alt: 'Manpower team briefing in warehouse', title: 'Manpower Solutions' },
   { src: gallery6, alt: 'Physical training session', title: 'Fitness Training' },
   { src: gallery7, alt: 'Reporting', title: 'Reporting' },
-  { src: gallery8, alt: 'Manpower team briefing in field', title: 'Manpower Solutions in Field' },
-  { src: gallery9, alt: 'Manpower team briefing onsite', title: 'Manpower Solution onsite' },
+  { src: gallery8, alt: 'Manpower team briefing in field', title: 'Corporate Security' },
+  { src: gallery9, alt: 'Manpower team briefing onsite', title: 'Security Onsite' },
 ];
 
 const Gallery = () => {

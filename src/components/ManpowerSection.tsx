@@ -53,7 +53,7 @@ const ManpowerSection = () => {
                   'Employee Salary between 5th to 7th',
                   'Provident Fund (PF)',
                   'Employee State Insurance (ESI)',
-                  'GST Compliance',
+                  'GST',
                   'WC Policy',
                   'Labour Welfare',
                   'Legal Documents Submission',
