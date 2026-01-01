@@ -95,7 +95,7 @@ const About = () => {
                 <span className="text-accent font-medium">Operational Coverage</span>
               </div>
               <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-                State-Wide Rapid Deployment
+                Nation-Wide Rapid Deployment
               </h3>
               <p className="text-muted-foreground mb-6">
                 We provide comprehensive service coverage across the entire India, 
