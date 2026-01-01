@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
             <p className="text-muted-foreground text-sm mb-4">
               An ISO 9001:2015 certified security and manpower company led by Ex-Serviceman, 
-              delivering trusted solutions across Madhya Pradesh.
+              delivering trusted solutions across India.
             </p>
             <div className="flex flex-wrap gap-2">
               {certifications.map((cert) => (

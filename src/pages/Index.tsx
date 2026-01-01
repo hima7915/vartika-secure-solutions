@@ -61,14 +61,14 @@ const Index = () => {
       <Helmet>
         <title>Vartika Security Services | ISO Certified Security & Manpower Solutions in MP</title>
         <meta name="description" content="Vartika Security Services - ISO 9001:2015 certified security & manpower company led by Ex-Serviceman in Dewas, MP. Security guarding, facility management, manpower supply. Call 9713600864." />
-        <meta name="keywords" content="security services dewas, manpower supply madhya pradesh, security guard services MP, facility management, VIP security, payroll services, ex-serviceman security company" />
+        <meta name="keywords" content="security services dewas, manpower supply India, security guard services MP, facility management, VIP security, payroll services, ex-serviceman security company" />
         <meta name="author" content="Vartika Security Services" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.vartikasecurity.in" />
         
         {/* Open Graph */}
         <meta property="og:title" content="Vartika Security Services | Trusted Security & Manpower Solutions" />
-        <meta property="og:description" content="ISO 9001:2015 certified security company led by Ex-Serviceman. Professional security guarding, manpower supply & facility management across Madhya Pradesh." />
+        <meta property="og:description" content="ISO 9001:2015 certified security company led by Ex-Serviceman. Professional security guarding, manpower supply & facility management across India." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.vartikasecurity.in" />
         <meta property="og:locale" content="en_IN" />

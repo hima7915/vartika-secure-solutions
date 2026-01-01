@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import Logo from '@/assets/vartikasecuritylogosvg.svg';
 
 const navLinks = [
   { name: 'Home', href: '#home' },
@@ -59,7 +60,7 @@ const Navbar = () => {
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2 group">
             <img
-            src="src\assets\vartikasecuritylogosvg.svg"
+            src={Logo}
               alt="Vartika Logo"
               className="w-8 h-8 group-hover:animate-pulse-glow transition-all"
             />            

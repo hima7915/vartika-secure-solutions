@@ -57,7 +57,7 @@ const Hero = () => {
 
           {/* Subheading */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 animate-fade-up stagger-2">
-            Delivering professional security and workforce solutions across Madhya Pradesh 
+            Delivering professional security and workforce solutions across India 
             with military-grade discipline, integrity, and 24/7 vigilance.
           </p>
 
