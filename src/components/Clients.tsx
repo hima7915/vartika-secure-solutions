@@ -15,6 +15,12 @@ import Suroj from "@/assets/clients/logo-suroj.jpeg"
 import Tata from "@/assets/clients/logo-tata.jpeg"
 import Ugc from "@/assets/clients/logo-ugc.jpeg"
 import WhiteSpread from "@/assets/clients/logo-whitespread.jpeg"
+import Chromewell from "@/assets/clients/logo-chromewell.jpeg"
+import Coram from "@/assets/clients/logo-coram.jpeg"
+import Ggag from "@/assets/clients/logo-ggag.jpeg"
+import Hmclause from "@/assets/clients/logo-Hmclause.jpeg"
+import Leayan from "@/assets/clients/logo-leayan.jpeg"
+import Purawhite from "@/assets/clients/logo-purawhite.jpeg"
 import  "../App.css"
 
 const clients = [
@@ -35,6 +41,12 @@ const clients = [
   { src: Tata, alt: 'Tata', title: 'Tata' },
   { src: Ugc, alt: 'Ugc', title: 'Ugc' },
   { src: WhiteSpread, alt: 'WhiteSpread', title: 'WhiteSpread' },
+  { src: Chromewell, alt: 'Chromewell', title: 'Chromewell' },
+  { src: Coram, alt: 'Coram', title: 'Coram' },
+  { src: Ggag, alt: 'Ggag', title: 'Ggag' },
+  { src: Hmclause, alt: 'Hmclause', title: 'Hmclause' },
+  { src: Leayan, alt: 'Leayan', title: 'Leayan' },
+  { src: Purawhite, alt: 'Purawhite', title: 'Purawhite' },
 ];
 
 const Clients = () => {
@@ -78,7 +90,7 @@ const Clients = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
           {[
             { value: '15+', label: 'Years Experience' },
-            { value: '500+', label: 'Security Personnel' },
+            { value: '1000+', label: 'Security Personnel' },
             { value: '100+', label: 'Happy Clients' },
             { value: '24/7', label: 'Support Available' },
           ].map((stat) => (
