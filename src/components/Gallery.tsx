@@ -9,7 +9,11 @@ import gallery6 from '@/assets/gallery-6.jpeg';
 import gallery7 from '@/assets/gallery-7.jpeg';
 import gallery8 from '@/assets/gallery-8.jpeg';
 import gallery9 from '@/assets/gallery-9.jpeg';
-import gallery10 from '@/assets/gallery-10.jpeg';
+import gallery11 from '@/assets/gallery-11.jpeg';
+import gallery12 from '@/assets/gallery-12.jpeg';
+import gallery13 from '@/assets/gallery-13.jpeg';
+import gallery14 from '@/assets/gallery-14.jpeg';
+import gallery15 from '@/assets/gallery-15.jpeg';
 
 
 const galleryImages = [
@@ -22,6 +26,11 @@ const galleryImages = [
   { src: gallery7, alt: 'Reporting', title: 'Reporting' },
   { src: gallery8, alt: 'Manpower team briefing in field', title: 'Corporate Security' },
   { src: gallery9, alt: 'Manpower team briefing onsite', title: 'Security Onsite' },
+  { src: gallery11, alt: 'Manpower team briefing onsite', title: 'Training onsite' },
+  { src: gallery12, alt: 'Manpower team briefing onsite', title: 'Cadets hoisting flag' },
+  { src: gallery13, alt: 'Manpower team briefing onsite', title: 'Security breifing' },
+  { src: gallery14, alt: 'Manpower team briefing onsite', title: 'Dependable security' },
+  { src: gallery15, alt: 'Manpower team briefing onsite', title: 'Every officer is dependable' },
 ];
 
 const Gallery = () => {
