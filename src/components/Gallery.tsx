@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
-import gallery1 from '@/assets/gallery-1.jpeg';
-import gallery2 from '@/assets/gallery-2.jpeg';
 import gallery3 from '@/assets/gallery-3.jpeg';
 import gallery4 from '@/assets/gallery-4.jpeg';
 import gallery5 from '@/assets/gallery-5.jpeg';
@@ -12,13 +10,12 @@ import gallery9 from '@/assets/gallery-9.jpeg';
 import gallery11 from '@/assets/gallery-11.jpeg';
 import gallery12 from '@/assets/gallery-12.jpeg';
 import gallery13 from '@/assets/gallery-13.jpeg';
-import gallery14 from '@/assets/gallery-14.jpeg';
-import gallery15 from '@/assets/gallery-15.jpeg';
+import gallery16 from '@/assets/gallery-16.jpeg';
+import gallery17 from '@/assets/gallery-17.jpeg';
+import gallery18 from '@/assets/gallery-18.jpeg';
 
 
 const galleryImages = [
-  { src: gallery1, alt: 'Security guards at construction site', title: 'Site Security' },
-  { src: gallery2, alt: 'Security team at Jalpak Foods', title: 'Plant Security' },
   { src: gallery3, alt: 'Security guards saluting at dawn', title: 'Disciplined Team' },
   { src: gallery4, alt: 'Fire safety training session', title: 'Safety Training' },
   { src: gallery5, alt: 'Manpower team briefing in warehouse', title: 'Manpower Solutions' },
@@ -28,9 +25,10 @@ const galleryImages = [
   { src: gallery9, alt: 'Manpower team briefing onsite', title: 'Security Onsite' },
   { src: gallery11, alt: 'Manpower team briefing onsite', title: 'Training onsite' },
   { src: gallery12, alt: 'Manpower team briefing onsite', title: 'Cadets hoisting flag' },
-  { src: gallery13, alt: 'Manpower team briefing onsite', title: 'Security breifing' },
-  { src: gallery14, alt: 'Manpower team briefing onsite', title: 'Dependable security' },
-  { src: gallery15, alt: 'Manpower team briefing onsite', title: 'Every officer is dependable' },
+  { src: gallery13, alt: 'Manpower team briefing onsite', title: 'Security briefing' },
+  { src: gallery16, alt: 'Flag hoisting ceremony with security guards', title: 'Flag Hoisting Ceremony' },
+  { src: gallery17, alt: 'Security team in parade formation', title: 'Independence Day Parade' },
+  { src: gallery18, alt: 'Security guards stationed at facility entrance gate', title: 'Gate Guarding & Inspection' },
 ];
 
 const Gallery = () => {

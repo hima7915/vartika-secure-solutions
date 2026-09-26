@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { MapPin, Phone, Mail, Globe, Send, Briefcase, CheckCircle } from 'lucide-react';
+import { MapPin, Phone, Mail, Globe, Send, Briefcase, CheckCircle, Building2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
 
@@ -94,6 +94,37 @@ const Contact = () => {
                       www.vartikasecurity.in
                     </a>
                   </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Our Branches */}
+            <div className="bg-card border border-border rounded-2xl p-8">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="p-3 bg-accent/10 rounded-lg">
+                  <Building2 className="w-5 h-5 text-accent" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-foreground">Our Branches</h3>
+                  <p className="text-xs text-muted-foreground">Operating across key locations in India</p>
+                </div>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div className="p-3 rounded-lg bg-background/50 border border-border/50">
+                  <p className="text-xs font-semibold text-accent uppercase tracking-wider mb-1">Madhya Pradesh (M.P.)</p>
+                  <p className="text-sm font-medium text-foreground">Indore | Neemuch | Sehore</p>
+                </div>
+                <div className="p-3 rounded-lg bg-background/50 border border-border/50">
+                  <p className="text-xs font-semibold text-accent uppercase tracking-wider mb-1">Uttar Pradesh (U.P.)</p>
+                  <p className="text-sm font-medium text-foreground">Lucknow | Kanpur</p>
+                </div>
+                <div className="p-3 rounded-lg bg-background/50 border border-border/50">
+                  <p className="text-xs font-semibold text-accent uppercase tracking-wider mb-1">Karnataka</p>
+                  <p className="text-sm font-medium text-foreground">Bidar</p>
+                </div>
+                <div className="p-3 rounded-lg bg-background/50 border border-border/50">
+                  <p className="text-xs font-semibold text-accent uppercase tracking-wider mb-1">Rajasthan</p>
+                  <p className="text-sm font-medium text-foreground">Chittaurgarh</p>
                 </div>
               </div>
             </div>

@@ -6,21 +6,25 @@ import Dinero from "@/assets/clients/logo-dinero.jpeg"
 import Geofast from "@/assets/clients/logo-geofast.jpeg"
 import Honda from "@/assets/clients/logo-honda.jpeg"
 import Madhur from "@/assets/clients/logo-madhur.jpeg"
-import Mahindra from "@/assets/clients/logo-mahindra.jpeg"
 import Modware from "@/assets/clients/logo-modware.jpeg"
 import Purasure from "@/assets/clients/logo-purasure.jpeg"
 import Purbasha from "@/assets/clients/logo-purbasha.jpeg"
 import Sabho from "@/assets/clients/logo-sabho.jpeg"
 import Suroj from "@/assets/clients/logo-suroj.jpeg"
 import Tata from "@/assets/clients/logo-tata.jpeg"
-import Ugc from "@/assets/clients/logo-ugc.jpeg"
 import WhiteSpread from "@/assets/clients/logo-whitespread.jpeg"
 import Chromewell from "@/assets/clients/logo-chromewell.jpeg"
 import Coram from "@/assets/clients/logo-coram.jpeg"
-import Ggag from "@/assets/clients/logo-ggag.jpeg"
 import Hmclause from "@/assets/clients/logo-Hmclause.jpeg"
 import Leayan from "@/assets/clients/logo-leayan.jpeg"
 import Purawhite from "@/assets/clients/logo-purawhite.jpeg"
+import Arihant from "@/assets/clients/logo-arihant.jpeg"
+import Marq from "@/assets/clients/logo-marq.jpeg"
+import Baerlocher from "@/assets/clients/logo-baerlocher.jpeg"
+import Genaaue from "@/assets/clients/logo-genaaue.jpeg"
+import PickRenew from "@/assets/clients/logo-pickrenew.jpeg"
+import Brg from "@/assets/clients/logo-brg.jpeg"
+import AdityaVision from "@/assets/clients/logo-adityavision.jpg"
 import  "../App.css"
 
 const clients = [
@@ -32,21 +36,25 @@ const clients = [
   { src: Geofast, alt: 'Geofast', title: 'Geofast' },
   { src: Honda, alt: 'Honda', title: 'Honda' },
   { src: Madhur, alt: 'Madhur', title: 'Madhur' },
-  { src: Mahindra, alt: 'Mahindra', title: 'Mahindra' },
   { src: Modware, alt: 'Modware', title: 'Modware' },
   { src: Purasure, alt: 'Purasure', title: 'Purasure' },
   { src: Purbasha, alt: 'Purbasha', title: 'Purbasha' },
   { src: Sabho, alt: 'Sabho', title: 'Sabho' },
   { src: Suroj, alt: 'Suroj', title: 'Suroj' },
   { src: Tata, alt: 'Tata', title: 'Tata' },
-  { src: Ugc, alt: 'Ugc', title: 'Ugc' },
   { src: WhiteSpread, alt: 'WhiteSpread', title: 'WhiteSpread' },
   { src: Chromewell, alt: 'Chromewell', title: 'Chromewell' },
   { src: Coram, alt: 'Coram', title: 'Coram' },
-  { src: Ggag, alt: 'Ggag', title: 'Ggag' },
   { src: Hmclause, alt: 'Hmclause', title: 'Hmclause' },
   { src: Leayan, alt: 'Leayan', title: 'Leayan' },
   { src: Purawhite, alt: 'Purawhite', title: 'Purawhite' },
+  { src: Arihant, alt: 'Arihant Pure Ghee', title: 'Arihant Pure Ghee' },
+  { src: Marq, alt: 'MARQ Indore', title: 'MARQ Indore' },
+  { src: Baerlocher, alt: 'Baerlocher', title: 'Baerlocher' },
+  { src: Genaaue, alt: 'Genaaue', title: 'Genaaue' },
+  { src: PickRenew, alt: 'PickRenew', title: 'PickRenew' },
+  { src: Brg, alt: 'BRG', title: 'BRG' },
+  { src: AdityaVision, alt: 'Aditya Vision', title: 'Aditya Vision' },
 ];
 
 const Clients = () => {

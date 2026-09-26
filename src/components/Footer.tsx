@@ -101,8 +101,31 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Our Branches Bar */}
+        <div className="py-6 border-t border-border">
+          <h5 className="text-xs font-bold text-accent uppercase tracking-wider mb-3">Our Branches</h5>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs text-muted-foreground">
+            <div>
+              <span className="font-semibold text-foreground block mb-0.5">M.P.</span>
+              <span>Indore | Neemuch | Sehore</span>
+            </div>
+            <div>
+              <span className="font-semibold text-foreground block mb-0.5">U.P.</span>
+              <span>Lucknow | Kanpur</span>
+            </div>
+            <div>
+              <span className="font-semibold text-foreground block mb-0.5">Karnataka</span>
+              <span>Bidar</span>
+            </div>
+            <div>
+              <span className="font-semibold text-foreground block mb-0.5">Rajasthan</span>
+              <span>Chittaurgarh</span>
+            </div>
+          </div>
+        </div>
+
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="pt-6 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground text-center md:text-left">
             © {new Date().getFullYear()} Vartika Security Services. All rights reserved.
           </p>
