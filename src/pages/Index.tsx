@@ -58,10 +58,10 @@ const Index = () => {
       },
       {
         "@type": "Question",
-        "name": "Where is Vartika Security located?",
+        "name": "Where is Vartika Security located and what are its branch locations?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Vartika Security Services is headquartered at 10 Adarsh Nagar, Dewas, Madhya Pradesh 455001, India. We provide services across Madhya Pradesh and other parts of India."
+          "text": "Vartika Security Services is headquartered at 10 Adarsh Nagar, Dewas, Madhya Pradesh 455001. We have branches in Indore, Neemuch, Sehore (M.P.), Lucknow, Kanpur (U.P.), Bidar (Karnataka), and Chittaurgarh (Rajasthan)."
         }
       },
       {
@@ -85,7 +85,7 @@ const Index = () => {
         "name": "Which companies trust Vartika Security?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Vartika Security is trusted by major companies including Tata, Honda, Mahindra, and many other industrial and commercial clients across India."
+          "text": "Vartika Security is trusted by major companies including Tata, Honda, and many other industrial and commercial clients across India."
         }
       }
     ]
@@ -95,15 +95,15 @@ const Index = () => {
     <>
       <Helmet>
         <title>Vartika Security Services | Best Security & Manpower Company in Dewas, MP</title>
-        <meta name="description" content="Vartika Security Services - ISO 9001:2015 certified security & manpower company led by Ex-Serviceman in Dewas, Madhya Pradesh. Security guarding, facility management, manpower supply, payroll services. Trusted by Tata, Honda, Mahindra. Call +91-9713600864." />
-        <meta name="keywords" content="vartika security, vartika security services, security services dewas, security company madhya pradesh, manpower supply india, security guard services MP, facility management dewas, VIP security india, payroll services, ex-serviceman security company, ISO certified security, security agency dewas, best security company MP, industrial security services" />
+        <meta name="description" content="Vartika Security Services - ISO 9001:2015 certified security & manpower company led by Ex-Serviceman in Dewas, MP. Branches in Indore, Neemuch, Sehore, Lucknow, Kanpur, Bidar, Chittaurgarh. Call +91-9713600864." />
+        <meta name="keywords" content="vartika security, vartika security services, security services dewas, security company indore, security agency neemuch, sehore security, lucknow security services, kanpur manpower, bidar security, chittaurgarh security, security guard services MP UP Rajasthan Karnataka, facility management, ex-serviceman security company" />
         <meta name="author" content="Vartika Security Services" />
         <meta name="robots" content="index, follow, max-image-preview:large" />
         <link rel="canonical" href="https://www.vartikasecurity.in/" />
         
         {/* Open Graph */}
         <meta property="og:title" content="Vartika Security Services | Best Security & Manpower Company in MP, India" />
-        <meta property="og:description" content="ISO 9001:2015 certified security company led by Ex-Serviceman. Professional security guarding, manpower supply, facility management & payroll services. Trusted by Tata, Honda, Mahindra. 24/7 support." />
+        <meta property="og:description" content="ISO 9001:2015 certified security company led by Ex-Serviceman. Professional security guarding, manpower supply, facility management & payroll services. Trusted by Tata, Honda. 24/7 support." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.vartikasecurity.in/" />
         <meta property="og:image" content="https://www.vartikasecurity.in/og-image.jpg" />
@@ -113,7 +113,7 @@ const Index = () => {
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Vartika Security Services | Security & Manpower Solutions India" />
-        <meta name="twitter:description" content="ISO 9001:2015 certified security company led by Ex-Serviceman. Trusted by Tata, Honda, Mahindra. 24/7 support across India." />
+        <meta name="twitter:description" content="ISO 9001:2015 certified security company led by Ex-Serviceman. Trusted by Tata, Honda. 24/7 support across India." />
         <meta name="twitter:image" content="https://www.vartikasecurity.in/og-image.jpg" />
         
         {/* Structured Data - Breadcrumbs */}

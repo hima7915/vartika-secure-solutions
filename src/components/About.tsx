@@ -102,7 +102,7 @@ const About = () => {
                 backed by rapid deployment teams that are trained to mobilize at short notice 
                 for any location or emergency need.
               </p>
-              <div className="space-y-3">
+              <div className="space-y-3 mb-6">
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-accent rounded-full" />
                   <span className="text-foreground">Quick mobilization across nation</span>
@@ -114,6 +114,24 @@ const About = () => {
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-accent rounded-full" />
                   <span className="text-foreground">Local expertise in every district</span>
+                </div>
+              </div>
+              
+              <div className="pt-4 border-t border-border/60">
+                <h4 className="text-xs font-bold text-accent uppercase tracking-wider mb-2">Our Key Branches</h4>
+                <div className="flex flex-wrap gap-2 text-xs">
+                  <span className="px-2.5 py-1 rounded-md bg-accent/10 border border-accent/20 text-foreground">
+                    <strong className="text-accent">M.P.:</strong> Indore | Neemuch | Sehore
+                  </span>
+                  <span className="px-2.5 py-1 rounded-md bg-accent/10 border border-accent/20 text-foreground">
+                    <strong className="text-accent">U.P.:</strong> Lucknow | Kanpur
+                  </span>
+                  <span className="px-2.5 py-1 rounded-md bg-accent/10 border border-accent/20 text-foreground">
+                    <strong className="text-accent">Karnataka:</strong> Bidar
+                  </span>
+                  <span className="px-2.5 py-1 rounded-md bg-accent/10 border border-accent/20 text-foreground">
+                    <strong className="text-accent">Rajasthan:</strong> Chittaurgarh
+                  </span>
                 </div>
               </div>
             </div>
